@@ -29,7 +29,7 @@ serial: /dev/ttyS3 в разделе [mcu] в файле printer.cfg
 ### РЕСУРСЫ И СТАТЬИ КОТОРЫЕ ВАМ ПОМОГУТ
 * Много полезного по FlyingBear Ghost6 в репозиториях товарища Том Томича: https://github.com/Tombraider2006
 * Общие пояснения о прошивке и установке на хосты: https://klipper.wiki/
-* Установка прошивки Klipper и прочие инструкцие по настройкам полезного на сайте Кирилла OxyGena: https://fdmprint.ru/category/poleznoe/klipper/
+* Установка прошивки Klipper и прочие инструкции по настройкам полезного на сайте Кирилла OxyGena: https://fdmprint.ru/category/poleznoe/klipper/
 * Подключение стокового экрана MKS к хосту и вывод на него KlipperScreen: https://sergey1560.github.io/fb4s_howto/mks_ts35/
 
 ### Связь

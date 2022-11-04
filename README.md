@@ -11,15 +11,15 @@
 Абсолютно ни каким образом конфигурация не привязана к выбранному железу, кроме строк -
 serial: /dev/ttyS3 в разделе [mcu] в файле printer.cfg
 и строк 
-[temperature_sensor orange_pi]
-sensor_type: temperature_host
-min_temp: 10
-max_temp: 100
+*[temperature_sensor orange_pi]
+*sensor_type: temperature_host
+*min_temp: 10
+*max_temp: 100
 
-[temperature_sensor mcu_temp]
-sensor_type: temperature_mcu
-min_temp: 0
-max_temp: 100
+*[temperature_sensor mcu_temp]
+*sensor_type: temperature_mcu
+*min_temp: 0
+*max_temp: 100
 
 Если прошивка будет ругаться на них, просто удалите или закомментируйте их.
 
@@ -27,7 +27,12 @@ max_temp: 100
 ![Настройка конфига компиляции](https://github.com/Technarrus/Klipper_FBG6/blob/main/menu_config.jpg)
 
 ### РЕСУРСЫ И СТАТЬИ КОТОРЫЕ ВАМ ПОМОГУТ
-- Много полезного по FlyingBear Ghost6 в репозиториях товарища 
+* Много полезного по FlyingBear Ghost6 в репозиториях товарища ТомТомича: https://github.com/Tombraider2006
+* Общие пояснения о прошивке и установке на хосты: https://klipper.wiki/
+* Установка прошивки Klipper и прочие инструкцие по настройкам полезного на сайте Кирилла OxyGena: https://fdmprint.ru/category/poleznoe/klipper/
+* Подключение стокового экрана MKS к хосту и вывод на него KlipperScreen: https://sergey1560.github.io/fb4s_howto/mks_ts35/
 
-
-
+### Связь
+Вопросы, обсуждения, предложения через следующие сообщества:
+* [Telegram группа](https://t.me/technarr)
+* [Группа в VK](https://vk.com/technarrus)

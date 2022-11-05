@@ -33,7 +33,8 @@ max_temp: 100
 
 ### INPUT SHAPING
 Я не калибровал значения которые находятся в конфиге, они не мои, но они прекрасно справляются с эхо на швах и углах. Это не правильно, советую провести калибровку индивидуально! Если не используете стоковый экран, руководствуйтесь этой статьей - https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/
-Если стоковый экран хзадействован, этой - https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu
+
+Если стоковый экран задействован, этой - https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu
 
 ### РЕСУРСЫ И СТАТЬИ КОТОРЫЕ ВАМ ПОМОГУТ
 * Много полезного по FlyingBear Ghost6 в репозиториях товарища Том Томича: https://github.com/Tombraider2006

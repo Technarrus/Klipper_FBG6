@@ -11,10 +11,10 @@
 Абсолютно ни каким образом конфигурация не привязана к выбранному железу, кроме строк -
 serial: /dev/ttyS3 в разделе [mcu] в файле printer.cfg
 и строк 
-* [temperature_sensor orange_pi]
-* sensor_type: temperature_host
-* min_temp: 10
-* max_temp: 100
+```[temperature_sensor orange_pi]
+sensor_type: temperature_host
+min_temp: 10
+max_temp: 100```
 
 * [temperature_sensor mcu_temp]
 * sensor_type: temperature_mcu
